@@ -33,7 +33,9 @@ TODO:
 Из него уже можно переходить в других пользователей.
 
 --- SSH сервер на удаленной машине ---
-# Путь к файлу конфигурации SSH сервера /etc/ssh/sshd_config
+
+Путь к файлу конфигурации SSH сервера /etc/ssh/sshd_config
+```shell
 # Стратегически мы хотим получив генеральный ключ от машины положить в коробочку, а
 # 
 # Настройки SSH сервера
@@ -48,7 +50,7 @@ PasswordAuthentication no
 PubkeyAuthentication yes
 ChallengeResponseAuthentication no 
 UsePAM no
-
+```
 
 
 И после уже 
